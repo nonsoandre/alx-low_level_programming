@@ -1,26 +1,19 @@
 #include <stdio.h>
 /**
 * main - Entry point
-* Return: Always 0 (Success)
+* Return: Always 0
 */
 int main(void)
 {
-int num1;
-int num2;
-for (num1 = 0; num1 < 99; num1++)
+char charct;
+charct = 'a';
+while (charct <= 'z')
 {
-for (num2 = num1 + 1; num2 <= 99; num2++)
+if (charct != 'e' && charct != 'q')
 {
-putchar(num1 / 10 + '0');
-putchar((num1 % 10) + '0');
-putchar(' ');
-putchar(num2 / 10 + '0');
-putchar((num2 % 10) + '0');
-if (num1 == 98 && num2 == 99)
-continue;
-putchar(',');
-putchar(' ');
+putchar(charct);
 }
+charct++;
 }
 putchar('\n');
 return (0);
