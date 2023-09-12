@@ -4,3 +4,5 @@ Just so you know
 This ish amma bout to blow
 innit git in my repo
 been around since H to da Izzo
+sudo apt
+asap
