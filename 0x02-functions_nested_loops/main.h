@@ -1,9 +1,9 @@
-// my_header.h
+/** my_header.h */
 
 #ifndef MY_HEADER_H
 #define MY_HEADER_H
 
-void myFunction();
-// other declarations
-
+void myFunction(void);
+/*pprotypes*/
+void print_alphabet(void);
 #endif
