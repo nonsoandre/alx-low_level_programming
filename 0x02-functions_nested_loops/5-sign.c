@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * print_sign - checks for the sign of a number
@@ -22,4 +21,6 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
+	
+	return (0);
 }
