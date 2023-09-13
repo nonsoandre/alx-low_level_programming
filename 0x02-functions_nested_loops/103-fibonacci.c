@@ -1,27 +1,26 @@
 #include <stdio.h>
-
 /**
- * main - Prints first 50 Fibonacci numbers, starting with 1 and 2
- * Return: Always 0.
+ * main - prints sum of even fibonacci numbers
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-	int count;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	long int fibo1 = 1;
+	long int fibo2 = 2;
+	long int fibosum = 0;
+	long int sum = 2;
 
-	for (count = 0; count < 50; count++)
+	while (fibosum <= 4000000)
 	{
-		sum = fib1 + fib2;
-		printf("%lu", sum);
-
-		fib1 = fib2;
-		fib2 = sum;
-
-		if (count == 49)
-			printf("\n");
-		else
-			printf(", ");
+		fibosum = fibo1 + fibo2;
+	if ((fibosum % 2) == 0)
+	{
+		sum += fibosum;
 	}
-
+	fibo1 = fibo2;
+	fibo2 = fibosum;
+	}
+	printf("%ld\n", sum);
 	return (0);
 }
