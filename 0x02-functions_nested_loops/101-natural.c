@@ -14,7 +14,7 @@ int main(void)
 		{
 			sum_of_multiples += multiple;
 		}
-		printf("%d\n", sum_of_multiples);
 	}
+	printf("%d\n", sum_of_multiples);
 	return (0);
 }
