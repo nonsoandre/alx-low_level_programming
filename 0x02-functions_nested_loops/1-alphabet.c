@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry
  * Return: Always 0
@@ -13,11 +13,11 @@ int main(void)
 void print_alphabet(void)
 {
 	/** prnt in all small cases */
-	int c;
+	int a;
 
-	for (c = 'a'; c <= 'z'; ++c)
+	for (a = 'a'; a <= 'z'; ++a)
 	{
-		_putchar(c);
+		putchar(a);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
