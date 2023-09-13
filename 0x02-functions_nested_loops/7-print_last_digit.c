@@ -13,6 +13,6 @@ int print_last_digit(int n)
 	{
 		las_num = -las_num;
 	}
-	printf("%d", las_num);
+	_putchar(las_num + '0');
 	return (las_num);
 }
