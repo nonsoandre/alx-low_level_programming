@@ -1,13 +1,11 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Entry
- * Return: Always 0
+ * Main - Entry
+ * Return - Always 0
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-
 void print_alphabet(void)
 {
-	/** prnt in all small cases */
 	int a;
 
 	for (a = 'a'; a <= 'z'; ++a)
