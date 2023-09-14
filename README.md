@@ -1,1 +1,1 @@
-Gettinh started with C
+Learning Debugging in C
