@@ -1,27 +1,26 @@
 #include "main.h"
 
 /**
- * print_diagonal -  prints a diagonal line on the terminal
- * @a: value that olds the number pf times character is printed
+ * print_diagonal - draws a diagonal line on the terminal
+ * @n: number of times the character \ should be printed
  */
 
-void print_diagonal(int a)
+void print_diagonal(int n)
 {
-	if (a <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
-	}
-	else
+	} else
 	{
-		int b, c;
+		int i, j;
 
-		for (b = 0; b < a; b++)
+		for (i = 0; i < n; i++)
 		{
-			for (c = 0; c < a; c++)
+			for (j = 0; j < n; j++)
 			{
-				if (c == i)
+				if (j == i)
 					_putchar('\\');
-				else if (c < b)
+				else if (j < i)
 					_putchar(' ');
 			}
 			_putchar('\n');
