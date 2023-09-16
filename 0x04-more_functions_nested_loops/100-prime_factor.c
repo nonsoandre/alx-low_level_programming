@@ -21,13 +21,13 @@ int main(void)
 		while (n % 2 == 0)
 		{
 			max = 2;
-			n /= 2;
+			n = n / a;
 		}
 	}
 	if (n > 2)
 	{
 		max = n;
 	}
-	printf("%ld", max);
+	printf("%ld\n", max);
 	return (0);
 }
