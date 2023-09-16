@@ -4,7 +4,7 @@
   * print_number - prints integers
   * @n - value to be printed
   */
-int print_number(int n)
+void print_number(int n)
 {
 	unsigned int num;
 
