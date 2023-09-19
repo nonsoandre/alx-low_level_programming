@@ -4,7 +4,7 @@
  * @str: The char array
  * Return: nothing or void
  */
-void puts_half(char *s)
+void puts_half(char *str)
 {
 	int strl = 0;
 	int i;
