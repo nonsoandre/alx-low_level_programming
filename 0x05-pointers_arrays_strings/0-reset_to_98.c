@@ -1,14 +1,12 @@
 #include "main.h"
 /**
- * swap_int - swap a values for each variable
- * @a: first value
- * @b: second value
+ * reset_to_98 - swap a values for each variable
+ * @n: first value
  * Return: nothing
-*/
-
-void swap_int(int *a, int *b)
+ */
+void reset_to_98(int *n)
 {
-	int holder = *b;
-	*b = *a;
-	*a = holder;
+
+	*n = 98;
+
 }
