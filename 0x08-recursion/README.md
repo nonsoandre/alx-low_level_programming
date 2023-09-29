@@ -1,0 +1,1 @@
+It all depends how you see it. But its the same thing over and over until it is over.
