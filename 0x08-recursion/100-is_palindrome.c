@@ -21,6 +21,7 @@ int check_palindrome(char *start, char *end)
 /**
 * find_end - detects if end of string.
 * @s: string.
+* Return: 1 or 0
 */
 char *find_end(char *s)
 {
