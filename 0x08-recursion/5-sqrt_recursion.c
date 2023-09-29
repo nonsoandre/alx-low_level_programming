@@ -10,7 +10,7 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	return (helper_sqrt(n, 1));
+	return (natural_sqrt(n, 1));
 }
 /**
 * natural_sqrt - calculate natural square root of a number.
