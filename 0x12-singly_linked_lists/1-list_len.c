@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * list_len - counters number of node in linkedlist
  * @h: head param
