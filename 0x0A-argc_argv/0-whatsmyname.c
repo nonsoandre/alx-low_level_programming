@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print name of function
  * @argc: arg count
