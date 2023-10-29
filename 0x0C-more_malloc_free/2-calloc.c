@@ -10,7 +10,8 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	unsigned int *res, ite = 0, tot_size;
+	unsigned int ite = 0, tot_size;
+	char *res;
 
 	/*check if your arguments is 0. if so return NUll*/
 	if (nmemb == 0 || size == 0)
