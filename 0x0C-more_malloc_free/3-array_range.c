@@ -21,7 +21,7 @@ int *array_range(int min, int max)
 	/*check for malloc return*/
 	if (ptr == NULL)
 		return (NULL);
-	while (min < max)
+	while (min <= max)
 	{
 		ptr[i] = min++;
 		i++;
