@@ -10,7 +10,7 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *res, ite, tot_size;
+	int *res, ite = 0, tot_size;
 
 	/*check if your arguments is 0. if so return NUll*/
 	if (nmemb == 0 || size == 0)
@@ -22,9 +22,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (res == NULL)
 		return (NULL);
 	/*set each element of array to 0*/
-	for (ite = 0; ite < tot_size - 1; ite++)
-	{
+	do {
 		res[ite] = 0;
-	}
+		ite++;
+	} while (ite < (tot_size - 1));
 	return (res);
 }
